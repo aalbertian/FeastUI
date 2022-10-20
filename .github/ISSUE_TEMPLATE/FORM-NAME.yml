@@ -15,7 +15,7 @@ body:
       label: Describe the bug
       description: A clear and concise description of what the bug is.
       placeholder: Brief description of the error
-      value: ""
+      value: " "
     validations:
       required: true
   - type: textarea
@@ -24,7 +24,7 @@ body:
       label: To Reproduce
       description: Steps to reproduce the behavior. Please list down all steps on how to reproduce the bug.
       placeholder: list all the steps to reproduce the error
-      value: ""
+      value: " "
     validations:
       required: true
   - type: textarea
@@ -33,7 +33,7 @@ body:
       label: Expected behavior
       description: A clear and concise description of what you expected to happen.
       placeholder: a brief description of the expected behavior
-      value: ""
+      value: " "
     validations:
       required: true
   - type: textarea
@@ -42,7 +42,7 @@ body:
       label: Screenshots
       description: If applicable, add screenshots to help explain your problem.If there is a request error, then press the F12 key and go to the network tab in the toolbar that appears, and then select the request with the error and take a screenshot (the request is highlighted in red).
       placeholder: screenshots
-      value: ""
+      value: " "
   - type: textarea
     id: visualization 
     attributes:
@@ -56,4 +56,4 @@ body:
       label: Additional context
       description: Add any other context about the problem here.
       placeholder: another context concerning the problem
-      value: ""      
+      value: " "      
