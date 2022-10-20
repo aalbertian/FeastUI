@@ -14,8 +14,8 @@ body:
     attributes:
       label: Describe the bug
       description: A clear and concise description of what the bug is.
-      placeholder: Tell us what you see!
-      value: "Brief description of the error"
+      placeholder: Brief description of the error
+      value: ""
     validations:
       required: true
   - type: textarea
@@ -23,7 +23,38 @@ body:
     attributes:
       label: To Reproduce
       description: Steps to reproduce the behavior. Please list down all steps on how to reproduce the bug.
-      placeholder: list all the steps to reproduce the error!
-      value: "Steps to reproduce the error"
+      placeholder: list all the steps to reproduce the error
+      value: ""
     validations:
       required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+      placeholder: a brief description of the expected behavior
+      value: ""
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem. |
+      If there is a request error, then press the F12 key and go to the network tab in the toolbar that appears, and then select the request with the error and take a screenshot (the request is highlighted in red).
+      placeholder: screenshots
+      value: ""
+  - type: textarea
+    id: visualization 
+    attributes:
+      label: Visualization problem
+      description: If there is a problem with displaying UI elements, then write the browser name and its version.
+      placeholder: the browser name and its version
+      value: ""
+  - type: textarea
+    id: additional 
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
+      placeholder: another context concerning the problem
+      value: ""      
