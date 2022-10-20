@@ -40,8 +40,7 @@ body:
     id: screenshots
     attributes:
       label: Screenshots
-      description: If applicable, add screenshots to help explain your problem. |
-      If there is a request error, then press the F12 key and go to the network tab in the toolbar that appears, and then select the request with the error and take a screenshot (the request is highlighted in red).
+      description: If applicable, add screenshots to help explain your problem.If there is a request error, then press the F12 key and go to the network tab in the toolbar that appears, and then select the request with the error and take a screenshot (the request is highlighted in red).
       placeholder: screenshots
       value: ""
   - type: textarea
