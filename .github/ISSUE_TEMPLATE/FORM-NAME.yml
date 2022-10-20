@@ -56,4 +56,4 @@ body:
       label: Additional context
       description: Add any other context about the problem here.
       placeholder: another context concerning the problem
-      value: " "      
+      value: "some text"      
