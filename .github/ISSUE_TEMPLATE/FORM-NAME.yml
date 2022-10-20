@@ -18,13 +18,12 @@ body:
       value: "Brief description of the error"
     validations:
       required: true
- - type: textarea
-    id: reproduce
-    attributes:
-      label: To Reproduce
-      description: Steps to reproduce the behavior. Please list down all steps on how to reproduce the bug.
-      placeholder: list all the steps to reproduce the error!
-      value: "Steps to reproduce the error"
-    validations:
-      required: true
-  
+  - type: textarea
+      id: reproduce
+      attributes:
+        label: To Reproduce
+        description: Steps to reproduce the behavior. Please list down all steps on how to reproduce the bug.
+        placeholder: list all the steps to reproduce the error!
+        value: "Steps to reproduce the error"
+      validations:
+        required: true
